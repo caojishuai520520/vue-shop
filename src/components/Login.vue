@@ -1,6 +1,6 @@
 <template>
     <div>
-        登录组件
+        登录组件111
     </div>
 </template>
 
@@ -11,5 +11,5 @@ export default {
 </script>
 
 <style lang="less" scoped>
-    
+
 </style>
