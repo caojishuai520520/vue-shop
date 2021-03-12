@@ -9,11 +9,11 @@
             <el-form ref="loginFormRef" class="login_form" :model="loginForm" :rules="loginFormRules">
                 <!-- 用户名 -->
                 <el-form-item  prop="username"><!-- 通过prop来指定不同的校验规则 -->
-                    <el-input v-model="loginForm.username"  prefix-icon="el-icon-s-custom"></el-input>
+                    <el-input v-model="loginForm.username"  prefix-icon="iconfont icon-user"></el-input>
                 </el-form-item>
                 <!-- 密码 -->
                  <el-form-item prop="password"> <!-- 通过prop来指定不同的校验规则 -->
-                    <el-input type="password" v-model="loginForm.password" prefix-icon="el-icon-thumb"></el-input>
+                    <el-input type="password" v-model="loginForm.password" prefix-icon="iconfont icon-showpassword"></el-input>
                 </el-form-item>
                 <!-- 按钮区域 -->
                 <el-form-item class="btns">
